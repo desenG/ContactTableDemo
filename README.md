@@ -1,5 +1,5 @@
 # ContactTableDemo
-Use UITableview to list all contacts from addressbook with search, section, index path and slide menu functions.
+Use UITableview to list all contacts from addressbook with search, section, index path, check box and slide menu functions.
 
 
 <p align="center">
