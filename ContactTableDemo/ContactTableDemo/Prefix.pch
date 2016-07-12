@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files
+
+#ifdef __OBJC__
+    #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    #define STORYBOARD_NAME  ( IS_IPAD ? @"Main_iPad" : @"Main")
+    #define APPDELEGATE     ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AppDelegate.h"
+    #import "ResourceHelper.h"
+    #import "ResourceHelper.h"
+    #import "OBShapedButton.h"
+    #import "NSString+Modify.h"
+
+#endif

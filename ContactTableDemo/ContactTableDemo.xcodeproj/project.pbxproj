@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60218FC91D349A920013FE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FC81D349A920013FE63 /* main.m */; };
+		60218FCC1D349A920013FE63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FCB1D349A920013FE63 /* AppDelegate.m */; };
+		60218FD21D349A920013FE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60218FD01D349A920013FE63 /* Main.storyboard */; };
+		60218FD51D349A920013FE63 /* ContactTableDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60218FD31D349A920013FE63 /* ContactTableDemo.xcdatamodeld */; };
+		60218FD71D349A920013FE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60218FD61D349A920013FE63 /* Assets.xcassets */; };
+		60218FDA1D349A920013FE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60218FD81D349A920013FE63 /* LaunchScreen.storyboard */; };
+		60218FEA1D349BFA0013FE63 /* ContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FE71D349BFA0013FE63 /* ContactTableViewController.m */; };
+		60218FEB1D349BFA0013FE63 /* TablesDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FE91D349BFA0013FE63 /* TablesDemoViewController.m */; };
+		60218FF01D349CD80013FE63 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FEF1D349CD80013FE63 /* Contact.m */; };
+		60218FF41D349DA20013FE63 /* ResourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FF31D349DA20013FE63 /* ResourceHelper.m */; };
+		60218FF81D349E7D0013FE63 /* AccountInfoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FF71D349E7D0013FE63 /* AccountInfoCache.m */; };
+		60218FFB1D349F460013FE63 /* RuntimeDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 60218FFA1D349F460013FE63 /* RuntimeDataStorage.m */; };
+		602190031D34A4230013FE63 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 602190001D34A4230013FE63 /* MGSwipeButton.m */; };
+		602190041D34A4230013FE63 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 602190021D34A4230013FE63 /* MGSwipeTableCell.m */; };
+		6021900A1D34A4760013FE63 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 602190071D34A4760013FE63 /* OBShapedButton.m */; };
+		6021900B1D34A4760013FE63 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 602190091D34A4760013FE63 /* UIImage+ColorAtPixel.m */; };
+		6021900F1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6021900E1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.m */; };
+		602190121D34A55D0013FE63 /* NSString+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = 602190111D34A55D0013FE63 /* NSString+Modify.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60218FC41D349A920013FE63 /* ContactTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60218FC81D349A920013FE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60218FCA1D349A920013FE63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60218FCB1D349A920013FE63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60218FD11D349A920013FE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60218FD41D349A920013FE63 /* ContactTableDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactTableDemo.xcdatamodel; sourceTree = "<group>"; };
+		60218FD61D349A920013FE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60218FD91D349A920013FE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60218FDB1D349A920013FE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60218FE41D349BB50013FE63 /* StaticTableParentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticTableParentProtocol.h; path = protocols/StaticTableParentProtocol.h; sourceTree = "<group>"; };
+		60218FE51D349BB50013FE63 /* StaticTableViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticTableViewControllerProtocol.h; path = protocols/StaticTableViewControllerProtocol.h; sourceTree = "<group>"; };
+		60218FE61D349BFA0013FE63 /* ContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewController.h; sourceTree = "<group>"; };
+		60218FE71D349BFA0013FE63 /* ContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewController.m; sourceTree = "<group>"; };
+		60218FE81D349BFA0013FE63 /* TablesDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablesDemoViewController.h; sourceTree = "<group>"; };
+		60218FE91D349BFA0013FE63 /* TablesDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablesDemoViewController.m; sourceTree = "<group>"; };
+		60218FEE1D349CD80013FE63 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = model/contact/Contact.h; sourceTree = "<group>"; };
+		60218FEF1D349CD80013FE63 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = model/contact/Contact.m; sourceTree = "<group>"; };
+		60218FF21D349DA20013FE63 /* ResourceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceHelper.h; path = helpers/ResourceHelper.h; sourceTree = "<group>"; };
+		60218FF31D349DA20013FE63 /* ResourceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceHelper.m; path = helpers/ResourceHelper.m; sourceTree = "<group>"; };
+		60218FF61D349E7D0013FE63 /* AccountInfoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountInfoCache.h; path = caches/AccountInfoCache.h; sourceTree = "<group>"; };
+		60218FF71D349E7D0013FE63 /* AccountInfoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountInfoCache.m; path = caches/AccountInfoCache.m; sourceTree = "<group>"; };
+		60218FF91D349F460013FE63 /* RuntimeDataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RuntimeDataStorage.h; path = helpers/RuntimeDataStorage.h; sourceTree = "<group>"; };
+		60218FFA1D349F460013FE63 /* RuntimeDataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RuntimeDataStorage.m; path = helpers/RuntimeDataStorage.m; sourceTree = "<group>"; };
+		60218FFC1D34A3060013FE63 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		60218FFF1D34A4230013FE63 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		602190001D34A4230013FE63 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		602190011D34A4230013FE63 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		602190021D34A4230013FE63 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		602190061D34A4760013FE63 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBShapedButton.h; path = library/OBShapedButton/OBShapedButton.h; sourceTree = "<group>"; };
+		602190071D34A4760013FE63 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBShapedButton.m; path = library/OBShapedButton/OBShapedButton.m; sourceTree = "<group>"; };
+		602190081D34A4760013FE63 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorAtPixel.h"; path = "library/OBShapedButton/UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		602190091D34A4760013FE63 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorAtPixel.m"; path = "library/OBShapedButton/UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		6021900D1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+indexPathForCellContainingView.h"; path = "foundation/UITableView+indexPathForCellContainingView.h"; sourceTree = "<group>"; };
+		6021900E1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+indexPathForCellContainingView.m"; path = "foundation/UITableView+indexPathForCellContainingView.m"; sourceTree = "<group>"; };
+		602190101D34A55D0013FE63 /* NSString+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Modify.h"; path = "foundation/NSString+Modify.h"; sourceTree = "<group>"; };
+		602190111D34A55D0013FE63 /* NSString+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Modify.m"; path = "foundation/NSString+Modify.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60218FC11D349A920013FE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60218FBB1D349A910013FE63 = {
+			isa = PBXGroup;
+			children = (
+				60218FC61D349A920013FE63 /* ContactTableDemo */,
+				60218FC51D349A920013FE63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60218FC51D349A920013FE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60218FC41D349A920013FE63 /* ContactTableDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60218FC61D349A920013FE63 /* ContactTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6021900C1D34A4FD0013FE63 /* foundation */,
+				60218FFD1D34A3EE0013FE63 /* libary */,
+				60218FF51D349E740013FE63 /* caches */,
+				60218FF11D349D6D0013FE63 /* helpers */,
+				60218FEC1D349CBD0013FE63 /* model */,
+				60218FE61D349BFA0013FE63 /* ContactTableViewController.h */,
+				60218FE71D349BFA0013FE63 /* ContactTableViewController.m */,
+				60218FE81D349BFA0013FE63 /* TablesDemoViewController.h */,
+				60218FE91D349BFA0013FE63 /* TablesDemoViewController.m */,
+				60218FE11D349B590013FE63 /* protocols */,
+				60218FCA1D349A920013FE63 /* AppDelegate.h */,
+				60218FCB1D349A920013FE63 /* AppDelegate.m */,
+				60218FD01D349A920013FE63 /* Main.storyboard */,
+				60218FD61D349A920013FE63 /* Assets.xcassets */,
+				60218FD81D349A920013FE63 /* LaunchScreen.storyboard */,
+				60218FDB1D349A920013FE63 /* Info.plist */,
+				60218FD31D349A920013FE63 /* ContactTableDemo.xcdatamodeld */,
+				60218FC71D349A920013FE63 /* Supporting Files */,
+			);
+			path = ContactTableDemo;
+			sourceTree = "<group>";
+		};
+		60218FC71D349A920013FE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60218FFC1D34A3060013FE63 /* Prefix.pch */,
+				60218FC81D349A920013FE63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60218FE11D349B590013FE63 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				60218FE41D349BB50013FE63 /* StaticTableParentProtocol.h */,
+				60218FE51D349BB50013FE63 /* StaticTableViewControllerProtocol.h */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		60218FEC1D349CBD0013FE63 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				60218FED1D349CC60013FE63 /* contact */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		60218FED1D349CC60013FE63 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				60218FEE1D349CD80013FE63 /* Contact.h */,
+				60218FEF1D349CD80013FE63 /* Contact.m */,
+			);
+			name = contact;
+			sourceTree = "<group>";
+		};
+		60218FF11D349D6D0013FE63 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60218FF91D349F460013FE63 /* RuntimeDataStorage.h */,
+				60218FFA1D349F460013FE63 /* RuntimeDataStorage.m */,
+				60218FF21D349DA20013FE63 /* ResourceHelper.h */,
+				60218FF31D349DA20013FE63 /* ResourceHelper.m */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		60218FF51D349E740013FE63 /* caches */ = {
+			isa = PBXGroup;
+			children = (
+				60218FF61D349E7D0013FE63 /* AccountInfoCache.h */,
+				60218FF71D349E7D0013FE63 /* AccountInfoCache.m */,
+			);
+			name = caches;
+			sourceTree = "<group>";
+		};
+		60218FFD1D34A3EE0013FE63 /* libary */ = {
+			isa = PBXGroup;
+			children = (
+				602190051D34A46B0013FE63 /* OBShapedButton */,
+				60218FFE1D34A41A0013FE63 /* MGSwipeTable */,
+			);
+			name = libary;
+			sourceTree = "<group>";
+		};
+		60218FFE1D34A41A0013FE63 /* MGSwipeTable */ = {
+			isa = PBXGroup;
+			children = (
+				60218FFF1D34A4230013FE63 /* MGSwipeButton.h */,
+				602190001D34A4230013FE63 /* MGSwipeButton.m */,
+				602190011D34A4230013FE63 /* MGSwipeTableCell.h */,
+				602190021D34A4230013FE63 /* MGSwipeTableCell.m */,
+			);
+			name = MGSwipeTable;
+			sourceTree = "<group>";
+		};
+		602190051D34A46B0013FE63 /* OBShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				602190061D34A4760013FE63 /* OBShapedButton.h */,
+				602190071D34A4760013FE63 /* OBShapedButton.m */,
+				602190081D34A4760013FE63 /* UIImage+ColorAtPixel.h */,
+				602190091D34A4760013FE63 /* UIImage+ColorAtPixel.m */,
+			);
+			name = OBShapedButton;
+			sourceTree = "<group>";
+		};
+		6021900C1D34A4FD0013FE63 /* foundation */ = {
+			isa = PBXGroup;
+			children = (
+				602190101D34A55D0013FE63 /* NSString+Modify.h */,
+				602190111D34A55D0013FE63 /* NSString+Modify.m */,
+				6021900D1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.h */,
+				6021900E1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.m */,
+			);
+			name = foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60218FC31D349A920013FE63 /* ContactTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60218FDE1D349A920013FE63 /* Build configuration list for PBXNativeTarget "ContactTableDemo" */;
+			buildPhases = (
+				60218FC01D349A920013FE63 /* Sources */,
+				60218FC11D349A920013FE63 /* Frameworks */,
+				60218FC21D349A920013FE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactTableDemo;
+			productName = ContactTableDemo;
+			productReference = 60218FC41D349A920013FE63 /* ContactTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60218FBC1D349A910013FE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ideaweddinghome;
+				TargetAttributes = {
+					60218FC31D349A920013FE63 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 60218FBF1D349A910013FE63 /* Build configuration list for PBXProject "ContactTableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60218FBB1D349A910013FE63;
+			productRefGroup = 60218FC51D349A920013FE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60218FC31D349A920013FE63 /* ContactTableDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60218FC21D349A920013FE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60218FDA1D349A920013FE63 /* LaunchScreen.storyboard in Resources */,
+				60218FD71D349A920013FE63 /* Assets.xcassets in Resources */,
+				60218FD21D349A920013FE63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60218FC01D349A920013FE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60218FEA1D349BFA0013FE63 /* ContactTableViewController.m in Sources */,
+				6021900A1D34A4760013FE63 /* OBShapedButton.m in Sources */,
+				60218FCC1D349A920013FE63 /* AppDelegate.m in Sources */,
+				602190031D34A4230013FE63 /* MGSwipeButton.m in Sources */,
+				602190041D34A4230013FE63 /* MGSwipeTableCell.m in Sources */,
+				6021900B1D34A4760013FE63 /* UIImage+ColorAtPixel.m in Sources */,
+				602190121D34A55D0013FE63 /* NSString+Modify.m in Sources */,
+				60218FF81D349E7D0013FE63 /* AccountInfoCache.m in Sources */,
+				60218FD51D349A920013FE63 /* ContactTableDemo.xcdatamodeld in Sources */,
+				60218FFB1D349F460013FE63 /* RuntimeDataStorage.m in Sources */,
+				60218FEB1D349BFA0013FE63 /* TablesDemoViewController.m in Sources */,
+				6021900F1D34A5240013FE63 /* UITableView+indexPathForCellContainingView.m in Sources */,
+				60218FF01D349CD80013FE63 /* Contact.m in Sources */,
+				60218FF41D349DA20013FE63 /* ResourceHelper.m in Sources */,
+				60218FC91D349A920013FE63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60218FD01D349A920013FE63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60218FD11D349A920013FE63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60218FD81D349A920013FE63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60218FD91D349A920013FE63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60218FDC1D349A920013FE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60218FDD1D349A920013FE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60218FDF1D349A920013FE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ContactTableDemo/Prefix.pch;
+				INFOPLIST_FILE = ContactTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iweddinghome.ideaweddinghome.ContactTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60218FE01D349A920013FE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ContactTableDemo/Prefix.pch;
+				INFOPLIST_FILE = ContactTableDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iweddinghome.ideaweddinghome.ContactTableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60218FBF1D349A910013FE63 /* Build configuration list for PBXProject "ContactTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60218FDC1D349A920013FE63 /* Debug */,
+				60218FDD1D349A920013FE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60218FDE1D349A920013FE63 /* Build configuration list for PBXNativeTarget "ContactTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60218FDF1D349A920013FE63 /* Debug */,
+				60218FE01D349A920013FE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60218FD31D349A920013FE63 /* ContactTableDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60218FD41D349A920013FE63 /* ContactTableDemo.xcdatamodel */,
+			);
+			currentVersion = 60218FD41D349A920013FE63 /* ContactTableDemo.xcdatamodel */;
+			path = ContactTableDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60218FBC1D349A910013FE63 /* Project object */;
+}
